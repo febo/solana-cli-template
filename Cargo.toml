@@ -6,7 +6,7 @@ license = "WTFPL"
 publish = false
 
 [dependencies]
-clap = { version = "3", features = ["cargo"] }
+clap = { version = "3", features = ["cargo", "derive"] }
 futures-util = "0.3.19"
 solana-clap-v3-utils = "=2.0.2"
 solana-cli-config = "=2.0.2"
